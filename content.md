@@ -9,4 +9,17 @@ Red Hat OpenShift Service Mesh provides an easy way to create a network of deplo
 Kiali Operator:  Kiali works with OpenShift Service Mesh to visualize the service mesh topology, to provide visibility into features like circuit breakers, request rates and more. It offers insights about the mesh components at different levels, from abstract Applications to Services and Workloads.
 
 Solution: Circuit breaker is implemented using following architecture. The Red Hat service mesh allows you to create an isolated network of microservices. The traffic to these microservices can be controlled, monitored, load balanced, rate-limited, security using the configuration applied in the service mesh.
-![image](https://github.com/user-attachments/assets/37ee5d95-8843-4914-8de9-4c35b0fe4a1e)
+**Architecture:**
+
+![image](https://github.com/user-attachments/assets/0b088ac1-c2a1-4f37-bf79-5658c949a9cb)
+
+![image](https://github.com/user-attachments/assets/d50ffe9d-bd37-451b-a06d-fa5a24aae472)
+
+Steps:
+
+Login to openshift consoleà go to OperatorHub à Install Red Hat OpenShift Service Mesh operator and Kiali Operator in the istio-system namespace. Optionally install OpenShift ElasticSearch Operator to monitor the network utilization.
+
+![image](https://github.com/user-attachments/assets/31158273-58a4-4497-acb0-41431ec7ce0b)
+
+
+
